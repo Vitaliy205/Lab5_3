@@ -1,0 +1,64 @@
+[
+	{
+	"Name": "Ivan",
+	"Last_Name": "Petrov",
+	"Document": "driver's license",
+	"NumberDocumnent": 231434,
+	"Birth_Date": "5.04.1989",
+ 	"Vechicle":[
+  		{
+			"Type": "Car",
+  			"Mark": "Lada",
+  			"Model": "Priora",
+			"Color": "Blue",
+  			"Year": 2021,
+			"Body": "hatchback",
+			"Sport": true,
+  			"VIN": 312464323543657,
+  			"Damaged": false
+  		},
+  		{
+			"Type": "Motorcycle",
+			"Mark": "Kawasaki",
+			"Model": "Z-300",
+			"Color": "Red",
+			"Year": 2022,
+			"Body": "cross",
+			"Sport": true,
+			"VIN": 4235436436634,
+			"Damaged": false
+		}
+		]
+	},
+	{
+		"Name": "Danila",
+		"Last_Name": "Sotnikov",
+		"Document": "passport",
+		"NumberDocumnent": 533434,
+		"Birth_Date": "7.08.2005",
+		 "Vechicle":[
+			  {
+				"Type": "Tram",
+				"Mark": "Tatra",
+			    "Model": "T3",
+				"Color": "Red",
+			    "Year": 1970,
+				"Body": "Usual",
+				"Sport": false,
+			    "VIN": 312464323543657,
+				"Damaged": false
+			  },
+			  {
+				"Type": "Trolley",
+				"Mark": "Admiral",
+				"Model": "Orange",
+				"Color": "Orange",
+				"Year": 2022,
+				"Body": "Usual",
+				"Sport": false,
+				"VIN": 4235436436634,
+				"Damaged": false
+			}
+			]
+	}
+]
