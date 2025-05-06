@@ -1,0 +1,22 @@
+<div *ngFor="let item of info">
+    <p>Имя: {{item.Name}}</p>
+	<p>Фамилия: {{item.Last_Name}}</p>
+	<p>Тип документа: {{item.Document}}</p>
+	<p>Номер документа: {{item.NumberDocumnent}}
+	<p>Дата рождения: {{item.Birth_Date}}</p>
+    <br>
+    <div *ngFor="let prop of item.Vechicle ">
+        <p>Владелец: {{item.Name}} {{item.Last_Name}}</p>
+ 	    <p>Тип Транспорта: {{prop.Type}}</p>
+        <p>Марка: {{prop.Mark}}</p>
+        <p>Модель: {{prop.Model}}</p>
+        <p>Цвет: {{prop.Color}}</p>
+        <p>Год выпуска: {{prop.Year}}</p>
+        <p>Тип кузова: {{prop.Body}}</p>
+        <p>Для спорта: {{prop.Sport}}</p>
+        <p>VIN-номер: {{prop.VIN}}</p>
+        <p>Битый: {{prop.Damaged}}</p>
+        <br>
+    </div>
+    <br>
+</div>

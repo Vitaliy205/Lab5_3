@@ -1,0 +1,10 @@
+<div>
+  <nav>
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Главная </a>
+    <a routerLink="/task2" routerLinkActive="active">Задание 2</a>
+  </nav>
+  <div *ngFor="let item of arr | sort">
+    {{item}}
+  </div>
+  <router-outlet></router-outlet>
+</div>
